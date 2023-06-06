@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae - DTC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bg__container{
+            display: flex;
+            margin-right: auto ;
+            margin-left: auto ;
+            align-items: center;
+            position: relative;
+            justify-items: center;
+            max-width: 50%;
+            background-color: #FFF;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+        }
+
+        body{
+            background-color: #FFE297 ;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .cv__container{
+            display: flex;
+        }
+
+        .right{
+            flex : 30%;
+            padding : 15px 15px 15px 15px;
+            background-color: #2a2a2c;
+            color: #fff;
+        }
+
+    
+        .left{
+            flex: 70%;
+            padding : 15px 15px 15px 15px;
+        }
+
+        .cv__photo{
+            border-radius: 50%;
+            border: 10px solid #2a2a2c;
+            width: 200px;
+            height: 200px;
+            margin-left: 40px;
+            margin-top: 25px;
+            position: relative;
+            z-index: 2;
+        }
+        .cv__photo__image{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            
+        }
+
+        .cv__name__position{
+            background-color: #f59f01;
+            float: left;
+            position : absolute;
+            top: 7%;
+            left: 28%;
+            padding-left: 3%;
+            padding-right: 3% ;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            line-height: 5px;
+            text-align: left;
+            text-transform: uppercase;
+            color: #fff;
+            width: 66%;
+
+        }
+        .cv__name__position > h1,h3{
+            margin-left: 30px;
+        }
+
+        .cv__progressBar{
+            /* height: 10%; */
+            border: 2px solid #f59f01;
+            padding: 5px 5px 5px 5px;
+        }
+
+        .cv__progressBar__Evo{
+            background-color: #f59f01 ;
+            z-index: 2 !important;
+        }
+    </style>
+    
+    <div class="bg__container">
+        <div class="cv__name__position">
+            <h1>Tovoniaina Aristide</h1>
+            <h3>Député IRD</h3>
+        </div>
+        <div class="cv__container">
+            <div class="cv__child left">
+                <div class="cv__photo">
+                    <img class="cv__photo__image" src="./ArisCV.png" alt="cv__photo" />
+                </div>
+            </div>
+
+            <div class="cv__child right">
+                <div class="cv__child__right__content">
+                    <div class="cv__contact__me">
+                        <h1>Contact Me</h1>
+                    </div>
+
+                    <div class="cv__address">
+                        ADDRESS <br>
+                        123, Street Oclaho, <br>
+                        Antananarivo
+                    </div>
+
+                    <div class="cv__web">
+                        WEB <br>
+                        contactme@email.com <br>
+                        www.contactme.com
+                    </div>
+
+                    <div class="cv__phone">
+                        PHONE <br>
+                        033 00 002 21
+                        034 20 220 20
+                    </div>
+
+                    <div class="cv__pro__skills">
+                        <h1>Pro Skills</h1>
+
+                        <div class="cv__progressBar"> 
+                            <div class="cv__progressBar__Evo"></div>
+                             </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    
+  </body>
+</html>
